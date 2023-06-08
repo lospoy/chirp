@@ -1,28 +1,50 @@
-# Create T3 App
+<div align="center">
+  <a href="https://chirp-lospoy.vercel.app/">
+    <img src="https://u.cubeupload.com/aa9988vvb/c90cover.png" width="70%">
+  </a>
+</div>
+<br>
+<p align="center">
+  <img alt="NextJS" src="https://img.shields.io/badge/-Nextjs-000000?style=for-the-badge&logo=Next.JS&logoColor=white" />
+  <img alt="Vercel" src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img alt="Prisma" src="https://img.shields.io/badge/-Prisma-5a67d8?style=for-the-badge&logo=Prisma&logoColor=white" />
+  <br>
+  <img alt="React" src="https://img.shields.io/badge/-React-0088CC?style=for-the-badge&logo=react&logoColor=white" />
+  <img alt="Tailwind" src="https://img.shields.io/badge/-Tailwind-499fc4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <br>
+  <img alt="tRPC" src="https://img.shields.io/badge/-tRPC-398ccb?style=for-the-badge&logo=tRPC&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-2875c3?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+<p align="center">
+  <a href="#about-the-project">About The Project</a> •
+  <a href="#overview">Overview</a> •
+  <a href="#local-installation">Local Installation</a> •
+  <a href="#credits">Credits</a>
+</p>
 
-## What's next? How do I make an app with this?
+## About The Project
+Chirp is a Twitter clone tutorial app I followed and built to get acquainted with NextJS, Vercel, and tRPC.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Overview
+- Pre-hydration using tRPC's SSG Helper
+- Prisma/SQL database
+- Authentication with Clerk
+- Endpoints with tRPC on the frontend
+- Continuous deployment with Vercel and Github CI
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Local Installation
+To run locally first install:
+<br>
+`` npm i ``
+<br><br>
+Then start the NextJS server:
+<br>
+`` npm run dev ``
+<br><br>
+To start Prisma Studio:
+<br>
+`` npx prisma studio ``
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Credits
+- <a href="https://t3.gg/">t3.gg</a> for the fantastic build tool and Theo for the many detailed videos on the stack and tRPC/GraphQL
