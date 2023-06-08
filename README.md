@@ -49,4 +49,4 @@ To start Prisma Studio:
 `` npx prisma studio ``
 
 ## Credits
-- <a href="https://t3.gg/">t3.gg</a> for the fantastic build tool and Theo for the many detailed videos on the stack and tRPC/GraphQL
+- <a href="https://t3.gg/">t3.gg</a> for the fantastic build tool and the many detailed videos on the stack and tRPC/GraphQL
