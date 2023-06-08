@@ -1,6 +1,6 @@
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { PostView } from "~/components/postview";
+import { PostView } from "~/components/postView";
 import { api } from "~/utils/api";
 
 const ProfileFeed = (props: { userId: string }) => {
