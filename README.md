@@ -3,8 +3,9 @@
     <img src="https://u.cubeupload.com/aa9988vvb/c90cover.png" width="70%">
   </a>
 </div>
+
 <br>
-<p align="center">
+<p align="center">  
   <img alt="NextJS" src="https://img.shields.io/badge/-Nextjs-000000?style=for-the-badge&logo=Next.JS&logoColor=white" />
   <img alt="Vercel" src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   <img alt="Prisma" src="https://img.shields.io/badge/-Prisma-5a67d8?style=for-the-badge&logo=Prisma&logoColor=white" />
@@ -24,7 +25,7 @@
 </p>
 
 ## About The Project
-Chirp is a Twitter clone tutorial app I followed and built to get acquainted with NextJS, Vercel, and tRPC.
+<a href="https://chirp-lospoy.vercel.app">Chirp</a> is a Twitter clone tutorial app I followed and built to get acquainted with NextJS, Vercel, and tRPC. Users can login via Github (can be easily modified via Clerk). Users can post emojis, view users' feeds, and specific posts. User profiles and posts slugs are dynamically generated on load, and the correct metadata is sent from the server, and served as HTML, while having a single plage application behavior. 
 
 ## Overview
 - Pre-hydration using tRPC's SSG Helper
