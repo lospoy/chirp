@@ -31,7 +31,8 @@
 - Pre-hydration using tRPC's SSG Helper
 - Prisma/SQL database
 - Authentication with Clerk
-- Endpoints with tRPC on the frontend
+- Endpoints with tRPC
+- Data validation with Zod
 - Continuous deployment with Vercel and Github CI
 
 ## Local Installation
