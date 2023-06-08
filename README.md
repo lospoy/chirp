@@ -25,7 +25,7 @@
 </p>
 
 ## About The Project
-<a href="https://chirp-lospoy.vercel.app">Chirp</a> is a simple Twitter clone built to get acquainted with NextJS, Vercel, and tRPC. <br><br>Users can post emojis, view users' feeds, and specific posts. Users can login via Github, but auth methods can be easily modified via Clerk. Thanks to tRPC, while the app is not doing a full SSR pass on every page, user profiles and posts slugs are dynamically generated on load, and the correct metadata is sent from the server and received as pure HTML by the client.
+<a href="https://chirp-lospoy.vercel.app">Chirp</a> is a simple Twitter clone built to get acquainted with NextJS, Vercel, and <a href="https://trpc.io/">tRPC</a> . <br><br>Users can post emojis, view users' feeds, and specific posts. Users can login via Github, but auth methods can be easily modified via Clerk. Thanks to tRPC, while the app is not doing a full SSR pass on every page, user profiles and posts slugs are dynamically generated on load, and the correct metadata is sent from the server and received as pure HTML by the client.
 
 ## Overview
 - Pre-hydration using tRPC's SSG Helper
