@@ -21,7 +21,6 @@
   <a href="#about-the-project">About The Project</a> •
   <a href="#overview">Overview</a> •
   <a href="#local-installation">Local Installation</a> •
-  <a href="#credits">Credits</a>
 </p>
 
 ## About The Project
@@ -47,6 +46,3 @@ Then start the NextJS server:
 To start Prisma Studio:
 <br>
 `` npx prisma studio ``
-
-## Credits
-- <a href="https://t3.gg/">t3.gg</a> for the fantastic build tool and the many detailed videos on the stack
